@@ -1,0 +1,7 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkmagenta;
+  color: white;
+  font-size: 25px;
+}

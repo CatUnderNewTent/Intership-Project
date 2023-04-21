@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  padding: 10px;
+}
+
+.auth {
+  display: flex;
+}
+
+h4 {
+  margin-right: 10px;
+}
