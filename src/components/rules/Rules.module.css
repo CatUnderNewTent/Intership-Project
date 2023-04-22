@@ -1,3 +1,22 @@
+.rulesContainer {
+  margin-bottom: 40px;
+}
+
+.rulesTitle {
+  margin-bottom: 20px;
+}
+
 .rules {
-  background-color: aqua;
+  background-color: rgba(37, 41, 43, 1);
+  padding: 8px 15px;
+  margin: 5px 0;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rules p {
+  width: 60%;
 }

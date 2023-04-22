@@ -1,3 +1,7 @@
-.carousel {
-  background-color: sienna;
+.carousel h4 {
+  margin-bottom: 25px;
+}
+
+.carousel img {
+  width: 150px;
 }

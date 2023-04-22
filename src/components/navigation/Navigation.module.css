@@ -1,7 +1,37 @@
 .navigation {
+  width: 335px;
+  height: 80px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
   display: flex;
-  justify-content: space-around;
-  background-color: darkmagenta;
-  color: white;
-  font-size: 25px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(44, 50, 52, 1);
+}
+
+.navigation a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.navDate {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.navType {
+  font-size: 12px;
+}
+
+.active {
+  background-color: rgba(239, 90, 33, 1);
+  width: 140px;
+  height: 90px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -15px;
 }
