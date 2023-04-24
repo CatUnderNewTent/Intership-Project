@@ -9,13 +9,18 @@ import styles from "./App.module.css";
 
 function App() {
   return (
-    <div className={styles.card}>
+    <div className={styles.cardBackground}>
       <Authentication />
       <Banner />
-      <Navigation />
-      <MainPart />
-      <Rules />
-      <Carousel />
+      <div className={styles.card}>
+        <Navigation />
+        <MainPart />
+        <Rules />
+        <Carousel />
+      </div>
+      <div className={styles.playBtn}>
+        <p>ითამაშე</p>
+      </div>
     </div>
   );
 }

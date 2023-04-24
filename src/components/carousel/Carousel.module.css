@@ -1,7 +1,67 @@
+.carousel {
+  width: 100%;
+}
+
 .carousel h4 {
   margin-bottom: 25px;
 }
 
+.imgContainer {
+  width: 155px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+
 .carousel img {
-  width: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.bonusImgText {
+  background: rgb(13, 100, 155);
+  background: linear-gradient(
+    0deg,
+    rgba(13, 100, 155, 1) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  transform: translate(0, -100%);
+  border-radius: 0 0 5px 5px;
+  padding: 50px 25px 15px 15px;
+}
+
+.carImgText {
+  background: rgb(239, 84, 28);
+  background: linear-gradient(
+    0deg,
+    rgba(239, 84, 28, 1) 40%,
+    rgba(0, 0, 0, 0) 75%
+  );
+  transform: translate(0, -100%);
+  border-radius: 0 0 5px 5px;
+  padding: 50px 25px 15px 15px;
+}
+
+.jackpotImgText {
+  background: rgb(26, 23, 108);
+  background: linear-gradient(
+    0deg,
+    rgba(26, 23, 108, 1) 55%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  transform: translate(0, -100%);
+  border-radius: 0 0 5px 5px;
+  padding: 50px 25px 15px 15px;
+}
+
+.bonusImgText p,
+.carImgText p,
+.jackpotImgText p {
+  font-size: 12px;
+}
+
+.bonusImgText h5,
+.carImgText h5,
+.jackpotImgText h5 {
+  margin-bottom: 10px;
 }
