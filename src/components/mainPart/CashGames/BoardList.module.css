@@ -1,0 +1,36 @@
+.topList {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(30, 33, 34, 1);
+  border-radius: 100px;
+  border: 2px solid rgba(44, 50, 52, 1);
+  padding: 10px 10px;
+}
+
+.topList p {
+  font-size: 10px;
+}
+
+.listWrapper {
+  width: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listDescAndNumPadd {
+  padding-right: 40px;
+}
+
+.listNum {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(44, 50, 52, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

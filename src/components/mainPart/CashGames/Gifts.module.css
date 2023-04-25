@@ -1,0 +1,36 @@
+.prizes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 20px 10px 20px;
+}
+
+.prizeWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(44, 50, 52, 1);
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px 0;
+  margin-bottom: 6px;
+}
+
+.prizeWrapper p {
+  font-size: 12px;
+  width: 100%;
+}
+
+.prizeWrapper img {
+  padding: 0 10px;
+}
+
+.sideLight {
+  height: 30px;
+  width: 5px;
+  background-color: rgba(239, 90, 33, 1);
+  margin: auto;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 0 10px 4px rgba(239, 90, 33, 0.3);
+}
