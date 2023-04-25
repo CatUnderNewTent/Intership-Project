@@ -18,14 +18,11 @@
   padding: 15px;
 }
 
-.playBtn p {
+.playBtn button {
   width: 130px;
   height: 30px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgba(240, 90, 34, 1);
   border-radius: 5px;
   font-size: 18px;
+  border: none;
 }

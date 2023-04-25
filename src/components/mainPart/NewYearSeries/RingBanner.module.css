@@ -1,0 +1,55 @@
+.ringBannerContainer {
+  background: url("../../../assets/tournament-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.bannerTextWrapper {
+  padding-left: 15px;
+}
+
+.highRollers {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.amount {
+  font-size: 20px;
+  color: rgba(255, 190, 0, 1);
+  font-weight: bold;
+  padding: 5px;
+}
+
+.xxx {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.date {
+  font-size: 14px;
+  padding: 5px 15px 5px 15px;
+  background-color: rgba(183, 134, 72, 1);
+  border-radius: 10px 10px 0 10px;
+}
+
+.ringBannerContainerGreen {
+  background: url("../../../assets/main-bg-sm.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.dateGreen {
+  font-size: 14px;
+  padding: 5px 15px 5px 15px;
+  background-color: rgba(215, 200, 96, 1);
+  color: rgba(9, 75, 61, 1);
+  border-radius: 10px 10px 0 10px;
+}

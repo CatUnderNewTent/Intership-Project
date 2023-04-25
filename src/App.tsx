@@ -19,7 +19,7 @@ function App() {
         <Carousel />
       </div>
       <div className={styles.playBtn}>
-        <p>ითამაშე</p>
+        <button>ითამაშე</button>
       </div>
     </div>
   );

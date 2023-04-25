@@ -23,7 +23,7 @@ const Gifts: React.FC = () => {
       </div>
       <div className={styles.prizeWrapper}>
         <div className={styles.sideLight}></div>
-        <img src={ticketIcon} alt="gift icon" />
+        <img src={ticketIcon} alt="ticket icon" />
         <p>
           სპეციალური ტურნირის „Cashgame Sharks” ბილეთი, სადაც გათამაშდება The
           Festival in Malta-ს საგზური

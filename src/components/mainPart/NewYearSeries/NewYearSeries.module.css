@@ -1,0 +1,201 @@
+/* ტურნირები და სატელიტები */
+.tournamentContainer {
+  width: 100%;
+  background-color: rgba(44, 50, 52, 1);
+  border-radius: 10px;
+}
+
+.cardLight {
+  width: 35%;
+  height: 4px;
+  background-color: rgba(239, 90, 33, 1);
+  margin: auto;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 10px 4px rgba(239, 90, 33, 0.3);
+}
+
+.tournamentContainer h4 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.eventBanner {
+  height: 150px;
+  background-color: rgba(23, 23, 24, 1);
+  background-image: url("../../../assets/promo-left-img.png"),
+    url("../../../assets/promo-right-img.png");
+  background-position: bottom left, bottom right;
+  background-repeat: no-repeat;
+  background-size: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid rgba(240, 90, 34, 1);
+  box-shadow: 0 0 10px 4px rgba(239, 90, 33, 0.3);
+  border-radius: 10px;
+}
+
+.clock p {
+  padding: 0 5px 0 0;
+}
+
+.clock img {
+  padding: 5px;
+  background-color: rgba(240, 90, 34, 1);
+  border-radius: 5px 45% 45% 5px;
+}
+
+.tournamentDescription {
+  text-align: center;
+}
+
+.tournamentDescription p {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.tournamentDescription button {
+  width: 130px;
+  height: 30px;
+  background-color: rgba(240, 90, 34, 1);
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  margin: 10px 0 15px 0;
+}
+/* /ტურნირები და სატელიტები */
+
+.topListBannerWrapper {
+  margin: 25px 0;
+  border-radius: 10px;
+  background-color: rgba(37, 41, 43, 1);
+}
+
+.topBannerTitle {
+  text-align: center;
+}
+
+.topBannerTitleWrapper {
+  background-color: rgba(44, 50, 52, 1);
+  border-radius: 10px;
+}
+
+.topBannerTitle {
+  padding: 20px 30px;
+}
+
+.topTTlistWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.topTTlistWrapper p {
+  font-size: 12px;
+  padding: 10px 30px 10px 15px;
+  background-color: rgba(30, 33, 34, 1);
+  border: 2px solid rgba(44, 50, 52, 1);
+  border-radius: 20px 0 0 20px;
+  margin-right: -20px;
+}
+
+.topTTlistWrapper img {
+  padding: 15px 12px;
+  background-color: rgba(240, 90, 34, 1);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.pokerLobby {
+  text-align: center;
+  font-size: 14px;
+}
+
+.pokerLobby p {
+  padding: 20px;
+}
+
+.pokerLobby span {
+  text-decoration: underline;
+  color: rgba(239, 90, 33, 1);
+}
+
+/* ტურნირები და სატელიტები */
+
+.threeBannerHeader {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.threeBannerImgWrapper {
+  max-width: 380px;
+  margin: auto;
+}
+
+.threeBannerSum {
+  font-size: 14px;
+}
+
+/* /ტურნირები და სატელიტები */
+
+/* TOP22 ლიდერბორდი */
+.listDesc {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.listDesc p {
+  font-size: 12px;
+  color: rgba(125, 125, 125, 1);
+  padding: 10px 0 15px 0;
+}
+
+.listWrapper {
+  width: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.giftIcon {
+  padding-right: 2px;
+}
+
+.listComponentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 305px;
+  overflow: scroll;
+  overflow-x: hidden;
+  gap: 2px 0;
+}
+
+/* SCROLLBAR */
+
+.listComponentContainer::-webkit-scrollbar {
+  width: 2px;
+}
+
+.listComponentContainer::-webkit-scrollbar-thumb {
+  background: rgb(211, 83, 35);
+  border-radius: 5px;
+}
+
+/* SCROLLBAR */
+/* /TOP22 ლიდერბორდი */

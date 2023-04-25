@@ -10,10 +10,10 @@ const Authentication: React.FC = () => {
       <img src={logo} alt="logo" className={styles.logo} />
       <div className={styles.auth}>
         <div className={styles.signUp}>
-          <p>Sign up</p>
+          <button>Sign up</button>
         </div>
         <div className={styles.signIn}>
-          <p>Sign in</p>
+          <button>Sign in</button>
         </div>
       </div>
     </div>
