@@ -1,5 +1,6 @@
 .cardBackground {
   background-color: rgba(23, 23, 24, 1);
+  position: relative;
 }
 
 .card {
@@ -25,4 +26,60 @@
   border-radius: 5px;
   font-size: 18px;
   border: none;
+}
+
+.dateAndIcon {
+  display: none;
+}
+
+@media (min-width: 750px) {
+  .cardBackground {
+    margin: 30px auto 0 auto;
+    width: 50%;
+    border-radius: 10px;
+  }
+
+  .playBtn {
+    width: 50%;
+    padding-top: 25px;
+  }
+
+  .description {
+    position: relative;
+  }
+
+  .dateAndIcon {
+    display: block;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    opacity: 0.9;
+  }
+
+  .dateAndIcon span {
+    display: inline-block;
+    background-color: rgb(68, 73, 75);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .date {
+    padding: 0;
+    background-color: rgba(37, 41, 43, 1);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 12px;
+  }
+
+  .icon {
+    display: block;
+    background-color: rgba(37, 41, 43, 1);
+    padding: 10px;
+    width: 40px;
+    border-radius: 50%;
+  }
 }

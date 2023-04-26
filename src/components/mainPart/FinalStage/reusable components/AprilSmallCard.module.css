@@ -18,3 +18,9 @@
 .smallCardIcon {
   padding: 0 15px;
 }
+
+@media (min-width: 1500px) {
+  .smallCardTextWrapper {
+    padding: 30px 50px;
+  }
+}

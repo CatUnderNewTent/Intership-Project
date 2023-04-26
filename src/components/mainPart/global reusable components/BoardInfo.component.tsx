@@ -1,8 +1,6 @@
-import React from "react";
-
 import styles from "./BoardInfo.module.css";
 
-const BoardInfo: React.FC = () => {
+const BoardInfo = () => {
   return (
     <div className={styles.boardInfoWrapper}>
       <div></div>

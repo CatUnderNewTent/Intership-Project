@@ -45,7 +45,6 @@
   flex-direction: column;
 }
 
-/** ///////////// მოიგე საგზური /////// */
 .aprilTournamentPriceContainer {
   background-color: rgba(37, 41, 43, 1);
   margin: 25px 0;
@@ -94,9 +93,7 @@
 .aprilTournamentRules p {
   padding: 0 0 10px 0;
 }
-/** ///////////// მოიგე საგზური /////// */
 
-/** //////////// მისტიური გასაღები ////// */
 .mysticalKeyContainer {
   background-color: rgba(37, 41, 43, 1);
   border-radius: 10px;
@@ -107,6 +104,10 @@
   background-color: rgba(44, 50, 52, 1);
   text-align: center;
   border-radius: 10px;
+}
+
+.mysticKeyListText {
+  display: none;
 }
 
 .mysticalKeyHeader h4 {
@@ -124,8 +125,6 @@
   overflow-x: hidden;
 }
 
-/* SCROLLBAR */
-
 .mysticKeyEventWrapper::-webkit-scrollbar {
   width: 4px;
 }
@@ -140,6 +139,62 @@
   border-radius: 10px;
 }
 
-/* SCROLLBAR */
+@media (min-width: 1550px) {
+  .aprilTournamentPriceContainer {
+    background-color: rgb(23, 23, 24);
+    border-right: 5px solid rgba(44, 50, 52, 1);
+    border-left: 5px solid rgba(44, 50, 52, 1);
+    border-bottom: 5px solid rgba(44, 50, 52, 1);
+  }
 
-/** //////////// მისტიური გასაღები ////// */
+  .aprilTournamentPriceHeader {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .festivalDate {
+    width: 70%;
+    margin: 20px auto 20px auto;
+  }
+
+  .festivalDate h5 {
+    padding: 25px;
+  }
+
+  .serviceCardWrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .aprilTournamentCardWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    background-color: rgb(23, 23, 24);
+  }
+
+  .mysticalKeyHeader {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .mysticKeyListText {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 0 20px 0;
+  }
+
+  .keyEventScrollWrapper {
+    background-color: rgba(44, 50, 52, 1);
+    border-radius: 10px;
+    padding: 15px 20px;
+  }
+
+  .mysticKeyEventListWrapper {
+    background-color: rgb(23, 23, 24);
+    border-right: 5px solid rgba(44, 50, 52, 1);
+    border-left: 5px solid rgba(44, 50, 52, 1);
+    border-bottom: 5px solid rgba(44, 50, 52, 1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+}

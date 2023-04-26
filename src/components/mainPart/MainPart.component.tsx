@@ -1,9 +1,8 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
 
 import styles from "./MainPart.module.css";
 
-const MainPart: React.FC = () => {
+const MainPart = () => {
   return (
     <div className={styles.container}>
       <Outlet />

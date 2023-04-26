@@ -1,10 +1,8 @@
-import React from "react";
-
 import styles from "./Banner.module.css";
 
 import banner from "../../assets/banner.jpg";
 
-const Banner: React.FC = () => {
+const Banner = () => {
   return (
     <div>
       <img className={styles.bannerImg} src={banner} alt="banner photo" />

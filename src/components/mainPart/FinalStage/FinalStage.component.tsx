@@ -1,5 +1,3 @@
-import React from "react";
-
 import bannerImage from "../../../assets/final-info-img.jpg";
 
 import styles from "./FinalStage.module.css";
@@ -8,7 +6,7 @@ import AprilSmallCard from "./reusable components/AprilSmallCard.component";
 import AprilBigCard from "./reusable components/AprilBigCard.component";
 import MysticKeyEvent from "./reusable components/MysticKeyEvent.component";
 
-const FinalStage: React.FC = () => {
+const FinalStage = () => {
   return (
     <div>
       <div className={styles.finalStageContainer}>
@@ -88,47 +86,53 @@ const FinalStage: React.FC = () => {
           <h4>მისტიური გასაღები</h4>
         </div>
         <div className={styles.mysticKeyEventListWrapper}>
-          <div className={styles.mysticKeyEventWrapper}>
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
-            <MysticKeyEvent
-              num="1"
-              text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
-            />
+          <p className={styles.mysticKeyListText}>
+            მოთამაშეები გარკვეული საპრიზო ადგილების დაკავების შემთხვევაში
+            მიიღებენ საიდუმლო გასაღებს
+          </p>
+          <div className={styles.keyEventScrollWrapper}>
+            <div className={styles.mysticKeyEventWrapper}>
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+              <MysticKeyEvent
+                num="1"
+                text="სპეციალური ტურნირი Cashgame Sharks II ადგილი"
+              />
+            </div>
           </div>
         </div>
       </div>

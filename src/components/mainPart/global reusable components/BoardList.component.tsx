@@ -1,8 +1,6 @@
-import React from "react";
-
 import styles from "./BoardList.module.css";
 
-const BoardList: React.FC = () => {
+const BoardList = () => {
   return (
     <div className={styles.topList}>
       <div className={`${styles.listWrapper} ${styles.listDescAndNumPadd}`}>

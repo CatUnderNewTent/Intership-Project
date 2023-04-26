@@ -1,4 +1,3 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import carImg from "../../assets/car-img.png";
@@ -8,7 +7,7 @@ import playImg from "../../assets/play-img.png";
 import styles from "./Carousel.module.css";
 import "swiper/css";
 
-const Carousel: React.FC = () => {
+const Carousel = () => {
   return (
     <div className={styles.carousel}>
       <h4>მსგავსი აქციები</h4>
@@ -31,7 +30,27 @@ const Carousel: React.FC = () => {
             slidesPerView: 4,
             spaceBetween: 0,
           },
-          800: {
+          750: {
+            slidesPerView: 1.2,
+            spaceBetween: 0,
+          },
+          900: {
+            slidesPerView: 1.5,
+            spaceBetween: 0,
+          },
+          1050: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+          1200: {
+            slidesPerView: 2.4,
+            spaceBetween: 0,
+          },
+          1500: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+          },
+          1900: {
             slidesPerView: 4,
             spaceBetween: 0,
           },

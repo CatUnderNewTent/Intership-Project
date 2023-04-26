@@ -13,9 +13,14 @@
   font-size: 12px;
 }
 
-.description p,
+.adText,
+.date,
 .description h4 {
   padding-bottom: 20px;
+}
+
+.icon {
+  display: none;
 }
 
 .navigation {
@@ -47,7 +52,6 @@
 
 .active {
   background-color: rgba(239, 90, 33, 1);
-  /* width: 140px; */
   width: 40%;
   height: 90px;
   border-radius: 10px;
@@ -56,4 +60,18 @@
   justify-content: center;
   align-items: center;
   margin: 0 -15px;
+}
+
+@media (min-width: 750px) {
+  .date {
+    display: none;
+  }
+
+  .navigationWrapper {
+    padding: 10px 40px;
+  }
+
+  .active {
+    width: 30%;
+  }
 }

@@ -1,11 +1,9 @@
-import React from "react";
-
 import chevron from "../../assets/chevron-down.svg";
 import styles from "./Rules.module.css";
 
-const Rules: React.FC = () => {
+const Rules = () => {
   return (
-    <div>
+    <div className={styles.rulesWrapper}>
       <h4 className={styles.rulesTitle}>წესები და პირობები</h4>
       <div className={styles.rulesContainer}>
         <div className={styles.rules}>

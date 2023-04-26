@@ -1,11 +1,9 @@
-import React from "react";
-
 import styles from "./CrashGames.module.css";
 
 import BoardInfo from "../global reusable components/BoardInfo.component";
 import ListsAndGifts from "./reusable components/ListsAndGifts.component";
 
-const CashGames: React.FC = () => {
+const CashGames = () => {
   return (
     <div>
       <div className={styles.boardContainer}>

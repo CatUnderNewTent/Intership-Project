@@ -7,9 +7,17 @@ import Rules from "./components/rules/Rules.component.tsx";
 
 import styles from "./App.module.css";
 
+import closeIcon from "./assets/close-icon.png";
+
 function App() {
   return (
     <div className={styles.cardBackground}>
+      <div className={styles.dateAndIcon}>
+        <p className={styles.date}>
+          <span>სლოტები</span> 10 სექტემბერი - 7 ნოემბერი
+        </p>
+        <img src={closeIcon} alt="close icon" className={styles.icon} />
+      </div>
       <Authentication />
       <Banner />
       <div className={styles.card}>

@@ -2,4 +2,11 @@
   width: 100%;
   height: auto;
   margin-bottom: 5px;
+  border-radius: 10px 10px 0 0;
+}
+
+@media (min-width: 750px) {
+  .bannerImg {
+    margin-top: -62px;
+  }
 }

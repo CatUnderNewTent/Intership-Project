@@ -33,7 +33,6 @@ const NewYearSeries = () => {
         </div>
       </div>
 
-      {/* //////////////////////////// */}
       <div className={styles.topListBannerWrapper}>
         <div className={styles.topBannerTitleWrapper}>
           <div className={styles.cardLight}></div>
@@ -46,7 +45,7 @@ const NewYearSeries = () => {
             <p>ქულების დაგროვების მექანიკა</p>
             <img src={chevron} alt="chevron down icon" />
           </div>
-          {/* //////////////////////// */}
+
           <div className={styles.listDesc}>
             <div
               className={`${styles.listWrapper} ${styles.listDescAndNumPadd}`}
@@ -85,7 +84,7 @@ const NewYearSeries = () => {
           </p>
         </div>
       </div>
-      {/* //////////////////// */}
+
       <div className={styles.threeBannerContainer}>
         <p className={styles.threeBannerHeader}>
           ყოველდღიური ტურნირები და სატელიტები

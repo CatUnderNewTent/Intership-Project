@@ -1,17 +1,16 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 import styles from "./Navigation.module.css";
 
-const Navigation: React.FC = () => {
+const Navigation = () => {
   return (
-    <>
+    <div className={styles.navigationWrapper}>
       <div className={styles.description}>
-        <p>
+        <p className={styles.date}>
           <span>სლოტები</span> 10 სექტემბერი - 7 ნოემბერი
         </p>
         <h4>მოიპოვე 10 საგზურიდან ერთ-ერთი</h4>
-        <p>მოხვდი პოკერის ფესტივალზე მალტაში</p>
+        <p className={styles.adText}>მოხვდი პოკერის ფესტივალზე მალტაში</p>
       </div>
       <div className={styles.navigation}>
         <NavLink
@@ -37,7 +36,7 @@ const Navigation: React.FC = () => {
           <p className={styles.navType}>Final Stage</p>
         </NavLink>
       </div>
-    </>
+    </div>
   );
 };
 

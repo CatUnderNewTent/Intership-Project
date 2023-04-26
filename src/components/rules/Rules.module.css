@@ -20,3 +20,15 @@
 .rules p {
   width: 60%;
 }
+
+@media (min-width: 750px) {
+  .rulesWrapper {
+    padding: 0 40px;
+  }
+
+  .rules {
+    background-color: rgba(37, 41, 43, 1);
+    padding: 25px;
+    margin: 10px 0;
+  }
+}
