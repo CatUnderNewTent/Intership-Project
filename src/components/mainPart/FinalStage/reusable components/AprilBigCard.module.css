@@ -1,0 +1,28 @@
+.bigCardContainer {
+  background-color: rgba(30, 33, 34, 1);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bigCardTextWrapper {
+  padding: 20px 0 20px 20px;
+  max-width: 300px;
+  margin-right: -10px;
+}
+
+.bigCardHeader {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.bigCardText {
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+
+.bigCardIcon {
+  padding: 0 15px;
+}

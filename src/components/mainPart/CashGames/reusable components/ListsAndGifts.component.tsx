@@ -1,11 +1,11 @@
 import React from "react";
 
-import exampleIcon from "../../../assets/example-icon.png";
-import giftIcon from "../../../assets/gift-solid.png";
+import exampleIcon from "../../../../assets/example-icon.png";
+import giftIcon from "../../../../assets/gift-solid.png";
 
 import styles from "./ListAndGifts.module.css";
-import BoardList from "../reusable components/BoardList.component";
-import Gifts from "../reusable components/Gifts.component";
+import BoardList from "../../global reusable components/BoardList.component";
+import Gifts from "../../global reusable components/Gifts.component";
 
 const ListsAndGifts: React.FC = () => {
   return (

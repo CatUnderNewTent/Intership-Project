@@ -1,0 +1,22 @@
+.EventWrapper {
+  background-color: rgba(30, 33, 34, 1);
+  border: 1px solid rgba(44, 50, 52, 1);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  margin-bottom: 5px;
+}
+
+.EventNumber {
+  font-size: 11px;
+  background-color: rgba(44, 50, 52, 1);
+  padding: 8px 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.EventText {
+  font-size: 12px;
+  padding: 10px 15px 10px 10px;
+}

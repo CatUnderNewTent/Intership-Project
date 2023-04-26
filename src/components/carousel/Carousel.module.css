@@ -22,7 +22,7 @@
   background: rgb(13, 100, 155);
   background: linear-gradient(
     0deg,
-    rgba(13, 100, 155, 1) 60%,
+    rgba(13, 100, 155, 1) 50%,
     rgba(0, 0, 0, 0) 100%
   );
   transform: translate(0, -100%);

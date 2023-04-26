@@ -1,5 +1,5 @@
 .ringBannerContainer {
-  background: url("../../../assets/tournament-bg.png");
+  background: url("../../../../assets/tournament-bg.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100px;
@@ -37,7 +37,7 @@
 }
 
 .ringBannerContainerGreen {
-  background: url("../../../assets/main-bg-sm.png");
+  background: url("../../../../assets/main-bg-sm.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100px;

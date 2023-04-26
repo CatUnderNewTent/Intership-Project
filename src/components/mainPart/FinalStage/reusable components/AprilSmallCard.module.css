@@ -1,0 +1,20 @@
+.smallCardContainer {
+  background-color: rgba(30, 33, 34, 1);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.smallCardTextWrapper {
+  padding: 20px 0 20px 20px;
+}
+
+.smallCardText {
+  font-size: 12px;
+}
+
+.smallCardIcon {
+  padding: 0 15px;
+}

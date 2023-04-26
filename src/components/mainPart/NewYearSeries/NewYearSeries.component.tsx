@@ -1,4 +1,4 @@
-import BoardInfo from "../reusable components/BoardInfo.component";
+import BoardInfo from "../global reusable components/BoardInfo.component";
 
 import styles from "./NewYearSeries.module.css";
 
@@ -7,9 +7,9 @@ import chevron from "../../../assets/chevron-down.svg";
 
 import ClockIcon from "../../../assets/clock-icon-2.png";
 
-import BoardList from "../reusable components/BoardList.component";
-import Gifts from "../reusable components/Gifts.component";
-import RingBanner from "./RingBanner.component";
+import BoardList from "../global reusable components/BoardList.component";
+import Gifts from "../global reusable components/Gifts.component";
+import RingBanner from "./reusable components/RingBanner.component";
 
 const NewYearSeries = () => {
   return (

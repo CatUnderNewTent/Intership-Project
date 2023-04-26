@@ -1,0 +1,18 @@
+.serviceCardSinglePart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 8px 0;
+  background-color: rgba(28, 29, 30, 1);
+}
+
+.serviceCardSinglePart img {
+  padding-right: 10px;
+}
+
+.serviceCardSinglePart p {
+  font-size: 14px;
+  width: 70%;
+}
